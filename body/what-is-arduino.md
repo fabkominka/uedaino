@@ -20,7 +20,7 @@
 
 
 ### Arduino Uno
-![Arduino Uno](/img/arduino_uno.jpg "hog")
+![Arduino Uno](img/arduino_uno.jpg)
 - Atmega 328P/168Pを採用
 - 当初は単にArduinoと言うとUnoを指すことが多かった
 
