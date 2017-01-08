@@ -463,56 +463,6 @@ F 3 "" H 9700 4100 50  0000 C CNN
 	1    9700 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Crystal_Small Y1
-U 1 1 585D59B5
-P 8050 1250
-F 0 "Y1" H 8050 1350 50  0000 C CNN
-F 1 "16MHz" H 8050 1150 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-SD_SMD" H 8050 1250 50  0001 C CNN
-F 3 "" H 8050 1250 50  0000 C CNN
-	1    8050 1250
-	0    -1   -1   0   
-$EndComp
-Text Label 7550 1050 0    60   ~ 0
-XT1
-Text Label 7550 1450 0    60   ~ 0
-XT2
-$Comp
-L C_Small C6
-U 1 1 585D5BAA
-P 8450 1050
-F 0 "C6" H 8460 1120 50  0000 L CNN
-F 1 "22uF" H 8460 970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8450 1050 50  0001 C CNN
-F 3 "" H 8450 1050 50  0000 C CNN
-	1    8450 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C_Small C7
-U 1 1 585D5BEB
-P 8450 1450
-F 0 "C7" H 8460 1520 50  0000 L CNN
-F 1 "22uF" H 8460 1370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8450 1450 50  0001 C CNN
-F 3 "" H 8450 1450 50  0000 C CNN
-	1    8450 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR018
-U 1 1 585D5DF9
-P 8900 1600
-F 0 "#PWR018" H 8900 1350 50  0001 C CNN
-F 1 "GND" H 8900 1450 50  0000 C CNN
-F 2 "" H 8900 1600 50  0000 C CNN
-F 3 "" H 8900 1600 50  0000 C CNN
-	1    8900 1600
-	1    0    0    -1  
-$EndComp
-Text Notes 7250 750  0    60   ~ 0
-XTAL
 Text Notes 900  4000 0    60   ~ 0
 CAPACITIVE SENSOR
 $Comp
@@ -780,8 +730,6 @@ Text Label 8800 4800 2    60   ~ 0
 RXD
 Text Label 8800 4900 2    60   ~ 0
 TXD
-Text Notes 8450 1900 2    60   ~ 0
-Akizuki 16MHZ P-01767\nHC-49/S
 $Comp
 L CONN_01X06 P3
 U 1 1 587205AB
@@ -1053,31 +1001,6 @@ Wire Notes Line
 	6650 2100 6650 550 
 Wire Notes Line
 	6650 550  5150 550 
-Wire Wire Line
-	8050 1350 8050 1450
-Wire Wire Line
-	7550 1450 8350 1450
-Wire Wire Line
-	8050 1150 8050 1050
-Wire Wire Line
-	7550 1050 8350 1050
-Connection ~ 8050 1450
-Connection ~ 8050 1050
-Wire Wire Line
-	8550 1050 8900 1050
-Wire Wire Line
-	8900 1050 8900 1600
-Wire Wire Line
-	8550 1450 8900 1450
-Connection ~ 8900 1450
-Wire Notes Line
-	7100 550  7100 2100
-Wire Notes Line
-	7100 2100 9200 2100
-Wire Notes Line
-	9200 2100 9200 550 
-Wire Notes Line
-	9200 550  7100 550 
 Wire Wire Line
 	1300 4850 1300 5700
 Wire Wire Line
