@@ -469,89 +469,6 @@ Text Label 9750 3600 2    60   ~ 0
 D12
 Text Label 9750 3700 2    60   ~ 0
 D13
-Text Notes 4100 2400 2    60   ~ 0
-I2C
-$Comp
-L CONN_01X04 P4
-U 1 1 585DE189
-P 4750 2450
-F 0 "P4" H 4750 2700 50  0000 C CNN
-F 1 "CN_I2C" V 4850 2450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 4750 2450 50  0001 C CNN
-F 3 "" H 4750 2450 50  0000 C CNN
-	1    4750 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR019
-U 1 1 585DE564
-P 4450 3100
-F 0 "#PWR019" H 4450 2950 50  0001 C CNN
-F 1 "+3.3V" H 4450 3240 50  0000 C CNN
-F 2 "" H 4450 3100 50  0000 C CNN
-F 3 "" H 4450 3100 50  0000 C CNN
-	1    4450 3100
-	1    0    0    1   
-$EndComp
-$Comp
-L GND #PWR020
-U 1 1 585DE5A6
-P 5050 3150
-F 0 "#PWR020" H 5050 2900 50  0001 C CNN
-F 1 "GND" H 5050 3000 50  0000 C CNN
-F 2 "" H 5050 3150 50  0000 C CNN
-F 3 "" H 5050 3150 50  0000 C CNN
-	1    5050 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NC_Small JP9
-U 1 1 585DF97F
-P 4800 3400
-F 0 "JP9" H 4800 3480 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 4810 3340 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4800 3400 50  0001 C CNN
-F 3 "" H 4800 3400 50  0000 C CNN
-	1    4800 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper_NC_Small JP8
-U 1 1 585DF9CC
-P 4700 3400
-F 0 "JP8" H 4700 3480 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 4710 3340 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4700 3400 50  0001 C CNN
-F 3 "" H 4700 3400 50  0000 C CNN
-	1    4700 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_Small R6
-U 1 1 585DFA80
-P 4300 2750
-F 0 "R6" H 4330 2770 50  0000 L CNN
-F 1 "4.7K" H 4330 2710 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4300 2750 50  0001 C CNN
-F 3 "" H 4300 2750 50  0000 C CNN
-	1    4300 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R5
-U 1 1 585DFAD3
-P 4000 2750
-F 0 "R5" H 4030 2770 50  0000 L CNN
-F 1 "4.7K" H 4030 2710 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4000 2750 50  0001 C CNN
-F 3 "" H 4000 2750 50  0000 C CNN
-	1    4000 2750
-	1    0    0    -1  
-$EndComp
-Text Label 4700 4000 1    60   ~ 0
-A4/SDA
-Text Label 4800 4000 1    60   ~ 0
-A5/SCL
 $Comp
 L Jumper_NC_Small JP1
 U 1 1 585E2FE6
@@ -979,44 +896,6 @@ Connection ~ 9250 3500
 Connection ~ 9300 3600
 Connection ~ 9350 3700
 Wire Wire Line
-	4600 2650 4600 3000
-Wire Wire Line
-	4600 3000 4450 3000
-Wire Wire Line
-	4450 3000 4450 3100
-Wire Wire Line
-	4900 2650 4900 3000
-Wire Wire Line
-	4900 3000 5050 3000
-Wire Wire Line
-	5050 3000 5050 3150
-Wire Wire Line
-	4700 2650 4700 3300
-Wire Wire Line
-	4800 2650 4800 3300
-Wire Wire Line
-	4000 2650 4600 2650
-Wire Wire Line
-	4300 2850 4700 2850
-Connection ~ 4700 2850
-Wire Wire Line
-	4000 2850 4000 2900
-Wire Wire Line
-	4000 2900 4800 2900
-Connection ~ 4800 2900
-Wire Wire Line
-	4800 3500 4800 4000
-Wire Wire Line
-	4700 3500 4700 4000
-Wire Notes Line
-	3750 2250 5300 2250
-Wire Notes Line
-	5300 2250 5300 4050
-Wire Notes Line
-	5300 4050 3750 4050
-Wire Notes Line
-	3750 4050 3750 2250
-Wire Wire Line
 	1300 4550 1300 4650
 Wire Wire Line
 	1300 4350 1300 4150
@@ -1088,7 +967,6 @@ Wire Notes Line
 	3150 3850 3150 6300
 Wire Notes Line
 	3150 6300 800  6300
-Connection ~ 4300 2650
 Wire Wire Line
 	4500 6000 3850 6000
 Wire Wire Line
