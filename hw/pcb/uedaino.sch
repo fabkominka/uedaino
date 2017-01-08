@@ -410,49 +410,6 @@ $EndComp
 Text Notes 2600 2400 0    60   ~ 0
 PWR_LED
 $Comp
-L CONN_02X03 P6
-U 1 1 585CE266
-P 6000 1300
-F 0 "P6" H 6000 1500 50  0000 C CNN
-F 1 "CN_ICSP" H 6000 1100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 6000 100 50  0001 C CNN
-F 3 "" H 6000 100 50  0000 C CNN
-	1    6000 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR015
-U 1 1 585CFA07
-P 6450 1500
-F 0 "#PWR015" H 6450 1250 50  0001 C CNN
-F 1 "GND" H 6450 1350 50  0000 C CNN
-F 2 "" H 6450 1500 50  0000 C CNN
-F 3 "" H 6450 1500 50  0000 C CNN
-	1    6450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR016
-U 1 1 585CFA3D
-P 6450 1100
-F 0 "#PWR016" H 6450 950 50  0001 C CNN
-F 1 "+5V" H 6450 1240 50  0000 C CNN
-F 2 "" H 6450 1100 50  0000 C CNN
-F 3 "" H 6450 1100 50  0000 C CNN
-	1    6450 1100
-	1    0    0    -1  
-$EndComp
-Text Label 6450 1300 2    60   ~ 0
-MOSI
-Text Label 5400 1200 0    60   ~ 0
-MISO
-Text Label 5400 1300 0    60   ~ 0
-SCK
-Text Label 5400 1400 0    60   ~ 0
-RESET
-Text Notes 5250 700  0    60   ~ 0
-ICSP
-$Comp
 L +5V #PWR017
 U 1 1 585D04F4
 P 9700 4100
@@ -977,30 +934,6 @@ Wire Notes Line
 	3500 3550 3500 2250
 Wire Notes Line
 	3500 2250 2500 2250
-Wire Wire Line
-	6250 1200 6450 1200
-Wire Wire Line
-	6450 1200 6450 1100
-Wire Wire Line
-	6250 1400 6450 1400
-Wire Wire Line
-	6450 1400 6450 1500
-Wire Wire Line
-	6450 1300 6250 1300
-Wire Wire Line
-	5750 1200 5400 1200
-Wire Wire Line
-	5750 1300 5400 1300
-Wire Wire Line
-	5750 1400 5400 1400
-Wire Notes Line
-	5150 550  5150 2100
-Wire Notes Line
-	5150 2100 6650 2100
-Wire Notes Line
-	6650 2100 6650 550 
-Wire Notes Line
-	6650 550  5150 550 
 Wire Wire Line
 	1300 4850 1300 5700
 Wire Wire Line
