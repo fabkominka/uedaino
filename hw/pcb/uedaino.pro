@@ -1,4 +1,4 @@
-update=2016 December 07, Wednesday 17:51:00
+update=2017/01/09 18:10:35
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=C:/Users/kobayashi/Documents/kicad/Lib/kobayashi-lib
