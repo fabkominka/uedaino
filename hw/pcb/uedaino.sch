@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:uedaino-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:kobayashi-lib
 LIBS:uedaino-cache
 EELAYER 25 0
 EELAYER END
@@ -1006,7 +1006,7 @@ F 3 "" H 3900 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P1
+L USB_OTG-RESCUE-uedaino P1
 U 1 1 58732FF4
 P 1100 1300
 F 0 "P1" H 1425 1175 50  0000 C CNN
