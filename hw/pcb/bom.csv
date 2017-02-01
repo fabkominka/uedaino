@@ -1,17 +1,25 @@
-Qty,partname,description,lib
-0,"AP1117","1A Low Dropout regulator, positive, adjustable output, NRND","regul"
-0,"ATMEGA168A-A","TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM","atmel"
-0,"C","Unpolarized capacitor","device"
-0,"CONN_01X06","Connector, single row, 01x06","conn"
-0,"CONN_01X08","Connector, single row, 01x08","conn"
-0,"CONN_01X10","Connector, single row, 01x10","conn"
-0,"CONN_02X03","Connector, double row, 02x03","conn"
-0,"C_Small","Unpolarized capacitor","device"
-0,"Crystal_Small","Two pin crystal","device"
-0,"Jumper_NC_Small","Jumper normally close","device"
-0,"Led_Small","Led","device"
-0,"R","Resistor","device"
-0,"R_Small","Resistor","device"
-0,"SW_PUSH","Button","device"
-0,"USB_OTG-RESCUE-uedaino","","uedaino-rescue"
-0,"WS2812B","","uedaino-cache"
+Reference, Value, Footprint, Datasheet
+R1,1K,Resistors_SMD:R_0603_HandSoldering,
+R2&R3,10K,Resistors_SMD:R_0603_HandSoldering,
+R4&R5,3.3K,Resistors_SMD:R_0603_HandSoldering,
+C1&C2&C7,0.1u,Capacitors_SMD:C_0603_HandSoldering,
+C3&C4,22uF,Capacitors_SMD:C_0603_HandSoldering,
+C5&C6,10uF,Capacitors_SMD:C_0603_HandSoldering,
+SW1,SW_PUSH,Buttons_Switches_SMD:SW_SPST_B3S-1000,
+IC1,ATMEGA328P-A,Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm,
+D1,LED_+5V,Diodes_SMD:D_0603,
+U1,AP1117,TO_SOT_Packages_SMD:SOT-223,
+U2,WS2812B,UeduinoLib:WS2812B,
+Y1,16MHz,Crystals:Crystal_SMD_5032_2Pads,
+P1,USB_OTG,Connectors:USB_Micro-B_10103594-0001LF,
+P2,CN_POWER,Socket_Strips:Socket_Strip_Straight_1x08,
+P3,CN_J1,Socket_Strips:Socket_Strip_Straight_1x06,
+P4,CN_ICSP,Socket_Strips:Socket_Strip_Straight_2x03,
+P5,CONN_01X10,Socket_Strips:Socket_Strip_Straight_1x10,
+P6,CONN_01X08,Socket_Strips:Socket_Strip_Straight_1x08,
+JP1,J_CAP1,UeduinoLib:JP_CAP,
+JP2,J_CAP2,UeduinoLib:JP_CAP,
+JP3,J_CAP3,UeduinoLib:JP_CAP,
+JP4,J_CAP4,UeduinoLib:JP_CAP,
+JP5,J_CAP5,UeduinoLib:JP_CAP,
+JP6,J_CAP6,UeduinoLib:JP_CAP,
